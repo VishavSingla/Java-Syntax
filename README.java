@@ -40,6 +40,17 @@ for (int i = 0; i < numbersStr.length; i++) {
     numbers[i] = Integer.parseInt(numbersStr[i]);
 }
 
+OR//
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int[] arr = new int[n];
+        for (int i = 0; i < n; i++) {
+            arr[i] = sc.nextInt();
+        }
+    }
+}
 
 //MAP
 map.put(key, value);
